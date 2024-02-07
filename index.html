@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Survey Form</title>
+</head>
+<body>
+<div class="header-container">
+    <div class="header-content">
+<h1>Wolf Valley Performance</h1> 
+<p>Welcome To Your New Gym!</p>
+    </div>
+</div>
+<div class="container">
+    <div class="name">
+        <label class="text-bar">Name:</label>
+        <input type="text" name="name" placeholder="Enter Your Name">
+    </div>
+    <div class="email">
+        <label class="text-bar">Email:</lable>
+        <input type="email" placeholder="Email Address">
+    </div>
+    <div class="age">
+        <label class="text-bar">Age:</lable>
+        <input type="number" min="10" max="99">
+    </div>
+    <div class="experience">
+        <label class="text-bar">Years of Crossfit Experience:</label>
+        <input type="number" min="0" max="99">
+    </div>
+    <div class="improve">
+        <p>What Do You Want To Improve The Most?<br/>(Please Select One)</p>
+        <label class="improvement"><input type="radio"> Strength</input>
+        </label>
+        <label class="improvement"><input type="radio"> Endurance </label>
+        <label class="improvement"><input type="radio"> Flexability </label>
+        <label class="improvement"><input type="radio"> Nutrition </label>
+        <label class="improvement"><input type="radio"> All of The Above </label>
+    </div>
+    <div class="friends">
+        <label class="referral">How Did You Hear About Us?
+                <select id="referral" placeholder="Select One">
+                    <option value="select-one" disable selected>Select One</option>
+                    <option>Your Mom</option>
+                    <option>Friend/Family</option>
+                    <option>Google</option>
+                    <option>Other</option>
+                </select>
+        </label>
+    </div>
+</div>
+<div class="footer">
+    <h2>Thank You For Submitting Your Form!</h2>
+</div>
+
+</body>
+</html>
